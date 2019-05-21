@@ -13,6 +13,26 @@ public class Student {
     
     private String name;
     private int sID;
+    private String lastName;
+
+    /**
+     * Get the value of lastName
+     *
+     * @return the value of lastName
+     */
+    public String getLastName() {
+        return lastName;
+    }
+
+    /**
+     * Set the value of lastName
+     *
+     * @param lastName new value of lastName
+     */
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
 
     /**
      * Get the value of sID
