@@ -48,7 +48,21 @@ public class CardTrick {
       
         Cars luckyCard = new Card();
         luckyCard.setValue = 7;
-        //Then report the result here
+
+           System.out.println("Enter the lucky card value");
+           int l = input.nextInt();
+        // and search magicHand here
+          for (int i=0; i<magicHand.length; i++)
+        {
+           if(luckyCard[i].getValue() == l){
+
+              System.out.println("You are lucky this time");
+           }
+           else
+            System.out.println("Sorry, try again");
+           }
+           }
+        }      
     }
     
 }
