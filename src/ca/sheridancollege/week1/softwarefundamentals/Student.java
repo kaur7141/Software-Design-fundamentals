@@ -14,7 +14,7 @@ public class Student {
     private String name;
     private int sID;
     private String lastName;
-
+    private String firstName;
     /**
      * Get the value of lastName
      *
