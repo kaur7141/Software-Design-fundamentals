@@ -18,7 +18,7 @@ public class CardTrick {
     {
         Scanner input = new Scanner(System.in);
         Card[] magicHand = new Card[7];
-        
+       
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
@@ -46,7 +46,8 @@ public class CardTrick {
         }
        
       
-        
+        Cars luckyCard = new Card();
+        luckyCard.setValue = 7;
         //Then report the result here
     }
     
